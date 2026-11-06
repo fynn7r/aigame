@@ -98,7 +98,7 @@ cxr_src/          训练与推理主代码
   chain*.sh         各阶段实验编排脚本
 tools/            容器驱动、权重下载、报告生成
 analysis/         数据集分析与环境探测
-submissions/      历史提交文件（文件名含线上分数）
+submissions/      最好成绩的提交文件（submission_77.59.csv）
 report_assets/    报告用图表与校验结果
 ```
 

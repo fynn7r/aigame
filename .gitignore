@@ -38,3 +38,7 @@ analysis/*.log
 .DS_Store
 Thumbs.db
 ~$*
+# ---- 本地历史归档（不进仓库）----
+_archive/
+submissions/*.csv
+!submissions/submission_77.59.csv
