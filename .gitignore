@@ -1,0 +1,40 @@
+# ---- 赛方原始数据（不得二次传播，且体积巨大）----
+cxr_first/
+*.dicom
+*.dcm
+
+# ---- 预训练权重与模型检查点 ----
+weights/
+outbox/
+inbox/
+*.pth
+*.pt
+*.safetensors
+
+# ---- 中间产物 / 缓存 ----
+*.npz
+*.npy
+*.pkl
+__pycache__/
+*.pyc
+.cache/
+runs/
+proc/
+
+# ---- 含容器登录凭据，禁止公开 ----
+tools/ct.py
+tools/jup.py
+tools/probe_jup.py
+tools/probe_jup2.py
+tools/probe_ssh.py
+tools/probe_ttyd*.py
+tools/probe_webssh.py
+tools/rt.py
+tools/ssh_exec.py
+tools/ttyd_*.py
+analysis/*.log
+
+# ---- 其他 ----
+.DS_Store
+Thumbs.db
+~$*
